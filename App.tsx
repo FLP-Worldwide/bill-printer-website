@@ -62,7 +62,7 @@ const App: React.FC = () => {
               <a href="#features" className="text-sm font-medium text-slate-600 hover:text-orange-600 transition-colors">Features</a>
               <a href="#preview" className="text-sm font-medium text-slate-600 hover:text-orange-600 transition-colors">Receipt Preview</a>
               <a href="#about" className="text-sm font-medium text-slate-600 hover:text-orange-600 transition-colors">About</a>
-              <a href="https://probiller.nobeltechinnovations.com/apk/app-release.apk"<Button size="md" className="bg-orange-600 hover:bg-orange-700 shadow-lg shadow-orange-600/20">
+              <a href="https://probiller.nobeltechinnovations.com/apk/app-release.apk"><Button size="md" className="bg-orange-600 hover:bg-orange-700 shadow-lg shadow-orange-600/20">
                 Download Beta
               </Button></a>
             </div>
