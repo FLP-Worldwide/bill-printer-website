@@ -19,7 +19,7 @@ import { StoreProfile, Order } from './types';
 const DEMO_STORE: StoreProfile = {
   name: "Cafe Nobel",
   address: "12 Innovation Drive, Tech Park",
-  phone: "+91 98765 43210",
+  phone: "+91 98280 51996",
   currency: "₹",
   footerMessage: "Thank you! Visit again.",
   gstin: "27ABCDE1234F1Z5"
@@ -62,9 +62,9 @@ const App: React.FC = () => {
               <a href="#features" className="text-sm font-medium text-slate-600 hover:text-orange-600 transition-colors">Features</a>
               <a href="#preview" className="text-sm font-medium text-slate-600 hover:text-orange-600 transition-colors">Receipt Preview</a>
               <a href="#about" className="text-sm font-medium text-slate-600 hover:text-orange-600 transition-colors">About</a>
-              <Button size="md" className="bg-orange-600 hover:bg-orange-700 shadow-lg shadow-orange-600/20">
+              <a href="https://probiller.nobeltechinnovations.com/apk/app-release.apk"<Button size="md" className="bg-orange-600 hover:bg-orange-700 shadow-lg shadow-orange-600/20">
                 Download Beta
-              </Button>
+              </Button></a>
             </div>
 
             {/* Mobile Menu Button */}
