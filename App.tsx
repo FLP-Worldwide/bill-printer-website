@@ -82,7 +82,7 @@ const App: React.FC = () => {
             <a href="#features" className="block text-slate-600 font-medium" onClick={() => setMobileMenuOpen(false)}>Features</a>
             <a href="#preview" className="block text-slate-600 font-medium" onClick={() => setMobileMenuOpen(false)}>Preview</a>
             <a href="#about" className="block text-slate-600 font-medium" onClick={() => setMobileMenuOpen(false)}>About</a>
-            <Button className="w-full bg-orange-600 justify-center">Download Beta</Button>
+            <a href="https://nobelapp-portal.s3.eu-north-1.amazonaws.com/apk/app-release.apk"><Button className="w-full bg-orange-600 justify-center">Download Beta</Button></a>
           </div>
         )}
       </nav>
@@ -115,10 +115,10 @@ const App: React.FC = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 shadow-xl shadow-slate-900/10 flex items-center gap-2">
+                <a href="https://nobelapp-portal.s3.eu-north-1.amazonaws.com/apk/app-release.apk"><Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 shadow-xl shadow-slate-900/10 flex items-center gap-2">
                   <Download size={20} />
                   Download for Android
-                </Button>
+                </Button></a>
                 <Button size="lg" variant="secondary" className="px-8 flex items-center gap-2">
                   View Demo <ChevronRight size={16} />
                 </Button>
@@ -275,7 +275,7 @@ const App: React.FC = () => {
              <Button size="lg" className="bg-orange-600 hover:bg-orange-500 text-white px-8 h-14 text-lg">
                 Get Started for Free
              </Button>
-             <Button size="lg" variant="secondary" className="bg-transparent border-slate-700 text-white hover:bg-slate-800 px-8 h-14 text-lg">
+             <Button size="lg" variant="secondary" className="bg-gray-700 border-slate-700 text-white hover:bg-slate-800 px-8 h-14 text-lg">
                 Contact Sales
              </Button>
           </div>
